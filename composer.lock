@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f8d082e7f0ce0ea04afee793a379e74",
+    "content-hash": "c940046fb53ecf55c32739b46b9f827f",
     "packages": [
         {
             "name": "hexlet/trees",
