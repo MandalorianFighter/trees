@@ -16,6 +16,5 @@ $tree = Php\Immutable\Fs\Trees\trees\mkdir('etc', [
   ]),
 ], ['key' => 'value']);
 
-
-
 print_r($tree);
+
