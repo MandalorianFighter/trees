@@ -45,11 +45,7 @@ function getHiddenFilesCount($tree)
     
     if (isFile($tree)) 
     {
-        if (str_starts_with($name, '.'))
-        {
-            return 1;
-        } 
-            return 0;
+        return str_starts_with($name, '.') ? 1 : 0;
     }
 
     $children = getChildren($tree);
